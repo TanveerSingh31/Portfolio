@@ -4,7 +4,7 @@ function SkillIcon({name}) {
     console.log(__dirname);
     let skillImagePath = `/${name}.png`;
     return (
-        <div className='flex flex-col items-center justify-center border-1 rounded-2xl my-2 p-2 w-30 h-30'>
+        <div className='flex flex-col items-center justify-center border-2 rounded-2xl my-2 p-2 w-30 h-30'>
             <Image src={skillImagePath} width={50} height={50} />
             <p className="font-bold mt-1 uppercase">{name}</p>
         </div>

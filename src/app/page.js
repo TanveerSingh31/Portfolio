@@ -3,6 +3,7 @@ import Header from './components/Header.jsx';
 import About from './components/About.jsx';
 import Skills from './components/Skills.jsx';
 import Contact from './components/Contact.jsx';
+import Projects from "./components/Projects.jsx";
 import Footer from './components/Footer.jsx';
 
 
@@ -14,6 +15,7 @@ export default function Home() {
         
         <About />
         <Skills />
+        <Projects />
         <Contact />
         {/* <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
           <Image
